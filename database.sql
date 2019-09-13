@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS etl_demo;
+
+CREATE TABLE IF NOT EXISTS `etl_demo`.`user` (
+    `id` INT NOT NULL AUTO_INCREMENT ,
+    `name` VARCHAR(255) NOT NULL ,
+    `email` VARCHAR(255) NOT NULL ,
+    PRIMARY KEY (`id`)
+) ENGINE = InnoDB

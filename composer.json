@@ -1,0 +1,9 @@
+{
+    "require": {
+        "bentools/etl": "^3.0@alpha",
+        "symfony/http-client": "^4.3"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.3"
+    }
+}
